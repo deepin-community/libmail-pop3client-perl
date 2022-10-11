@@ -1,0 +1,2 @@
+version=3
+https://metacpan.org/release/Mail-POP3Client   .*/Mail-POP3Client-v?(\d[\d.-]+)\.(?:tar(?:\.gz|\.bz2)?|tgz|zip)$

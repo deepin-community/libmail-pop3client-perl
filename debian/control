@@ -1,0 +1,20 @@
+Source: libmail-pop3client-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: gregor herrmann <gregoa@debian.org>
+Section: perl
+Testsuite: autopkgtest-pkg-perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.6
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libmail-pop3client-perl.git
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libmail-pop3client-perl.git
+Homepage: https://metacpan.org/release/Mail-POP3Client
+
+Package: libmail-pop3client-perl
+Architecture: all
+Depends: ${misc:Depends},
+         ${perl:Depends}
+Description: POP3 client module for perl
+ Mail::POP3Client provides an object-oriented interface to a POP3 server.
+ It can be used to write perl-based biff clients, mail
+ readers, or whatever.

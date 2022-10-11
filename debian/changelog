@@ -1,0 +1,101 @@
+libmail-pop3client-perl (2.19-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 00:58:57 +0100
+
+libmail-pop3client-perl (2.19-1) unstable; urgency=medium
+
+  * Take over for the Debian Perl Group on maintainer's request (via
+    private mail).
+  * debian/control: Added: Vcs-Git field (source stanza); Vcs-Browser
+    field (source stanza). Changed: Homepage field changed to
+    metacpan.org URL; Maintainer set to Debian Perl Group <pkg-perl-
+    maintainers@lists.alioth.debian.org> (was: Noël Köthe
+    <noel@debian.org>).
+  * debian/watch: use metacpan-based URL.
+
+  * Import new upstream release 2.19.
+  * Use dh(1) in debian/rules and debhelper compat level 9.
+  * Remove debian/dirs, not needed.
+  * Update Source field in debian/copyright.
+  * Add debian/upstream/metadata
+  * Mark package as autopkgtest-able.
+  * Declare compliance with Debian Policy 3.9.6.
+  * Switch to source format "3.0 (quilt)".
+  * Change to Architecture:all, this is a pure-perl module.
+  * Mention module name in long description.
+  * Add /me to Uploaders.
+
+ -- gregor herrmann <gregoa@debian.org>  Tue, 15 Dec 2015 19:19:08 +0100
+
+libmail-pop3client-perl (2.18-1) unstable; urgency=low
+
+  * latest upstream release 2.18. closes: Bug#719274
+  * debian/control
+    - removed URL from description and add Homepage:
+    - updated Standards-Version:
+    - added missing ${misc:Depends} (lintian warning)
+  * debian/compat file added (lintian warning)
+  * debian/rules removed unneeded and comented dh_ commands
+  * debian/copyright converted to copyright format with pointers
+    to the licenses (lintian error)
+  * debian/watch added watch file from bartm
+    http://anonscm.debian.org/viewvc/sepwatch/trunk/watchfiles/libmail-pop3client-perl_2.17-1.watch?view=markup
+
+ -- Noël Köthe <noel@debian.org>  Mon, 12 Aug 2013 13:19:30 +0200
+
+libmail-pop3client-perl (2.17-1) unstable; urgency=low
+
+  * new upstream from 2005-08-18
+    (closes: Bug#329581)
+  * updated Standards-Version
+  * changed dependency from libdigest-md5-perl to perl
+
+ -- Noèl Köthe <noel@debian.org>  Fri, 23 Sep 2005 17:49:10 +0200
+
+libmail-pop3client-perl (2.16-1) unstable; urgency=low
+
+  * new upstream from 2004-03-13
+  * updated Section to perl
+
+ -- Noèl Köthe <noel@debian.org>  Wed, 11 Aug 2004 15:25:09 +0200
+
+libmail-pop3client-perl (2.15-1) unstable; urgency=low
+
+  * new upstream from 2003-10-18
+  * updated Standards-Version
+
+ -- Noel Koethe <noel@debian.org>  Fri, 13 Feb 2004 23:37:43 +0100
+
+libmail-pop3client-perl (2.13-1) unstable; urgency=low
+
+  * new upstream from 2003-01-09
+  * added dependency libdigest-md5-perl
+    (libmd5-perl is a wrapper for this package)
+    (closes: Bug#166522)
+  * updated Standards-Version
+  * added URL to description
+
+ -- Noel Koethe <noel@debian.org>  Sat,  8 Mar 2003 12:32:00 +0100
+
+libmail-pop3client-perl (2.10-2) unstable; urgency=low
+
+  * added perl copyright link to debian/copyright
+    (closes: Bug#157652)
+
+ -- Noel Koethe <noel@debian.org>  Sat, 24 Aug 2002 11:30:00 +0200
+
+libmail-pop3client-perl (2.10-1) unstable; urgency=low
+
+  * new upstream version from 2001-09-08
+
+ -- Noel Koethe <noel@debian.org>  Thu, 30 May 2002 16:54:00 +0200
+
+libmail-pop3client-perl (2.9-1) unstable; urgency=low
+
+  * Initial Release.
+    (closes: Bug#131032)
+
+ -- Noel Koethe <noel@debian.org>  Tue, 26 Jan 2002 16:41:39 +0100
